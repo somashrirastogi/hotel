@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="all,follow">
+  
+
+  <title>Hotel</title>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-frontpage.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-white"> <a class="navbar-brand" href="#" data-abc="true"> <div class="avatar"><img src="img\d123837152c0eb5471aba62d168075fb.jpg" alt="..." class="img-fluid rounded-circle" style="width: 20%; "></div></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+            <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+   <a href="#modalLRForm">Services</a>
+  
+
+  <input type="text" placeholder="Search.." style="float: right;">
+</div>
+
+      </ul></div></nav>
+      <!--modal-->
+      <!--Modal: Login / Register Form-->
+<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog cascading-modal" role="document" >
+    <!--Content-->
+    <div class="modal-content" >
+
+      <!--Modal cascading tabs-->
+      <div class="modal-c-tabs">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+              Customer Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+              Hotel Login</a>
+          </li>
+        </ul>
+
+        <!-- Tab panels -->
+        <div class="tab-content">
+          <!--Panel 7-->
+          <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body mb-1">
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-envelope prefix"></i>
+                <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+              </div>
+
+              <div class="md-form form-sm mb-4">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+              </div>
+              <div class="text-center mt-2">
+                <button class="btn btn-info">Log in <i class="fas fa-sign-in ml-1"></i></button>
+              </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-center text-md-right mt-1">
+                <p>Not a member? <a href="" class="blue-text" data-target="#modalLRForm"></a></p>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalRForm" data-dismiss="modal"> Register    </button>
+                <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+          <!--/.Panel 7-->
+
+          <!--Panel 8-->
+          <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body">
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-envelope prefix"></i>
+                <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+              </div>
+
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
+              </div>
+
+             
+
+              <div class="text-center form-sm mt-2">
+                <button class="btn btn-info">Login <i class="fas fa-sign-in ml-1"></i></button>
+              </div>
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-right">
+                <p class="pt-1">Don't have an account? <a href="#modalLRForm" class="blue-text"></a></p>
+           <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalRForm" data-dismiss="modal">Register</button>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          <!--/.Panel 8-->
+        </div>
+
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: Login / Register Form-->
+
+<div class="text-center" style="display: inline; padding: 30px;">
+  <a href="Login" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLRForm">Login</a>
+</div>
+ <!--modal-->
+      <!--Modal: Login / Register Form-->
+<!--Modal: Login / Register Form-->
+<div class="modal fade" id="modalRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog cascading-modal" role="document" >
+    <!--Content-->
+    <div class="modal-content" >
+
+      <!--Modal cascading tabs-->
+      <div class="modal-c-tabs">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+              Customer Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+              Hotel Register</a>
+          </li>
+        </ul>
+
+        <!-- Tab panels -->
+        <div class="tab-content">
+          <!--Panel 7-->
+          <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body mb-1">
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-envelope prefix"></i>
+                <input type="email" id="modalRInput10" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalRInput10">User ID/Email</label>
+              </div>
+
+              <div class="md-form form-sm mb-4">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalRInput11" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalRInput11">Your password</label>
+              </div>
+              <div class="md-form form-sm mb-4">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalRInput11" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalRInput11">Repeat password</label>
+              </div>
+              <div class="text-center mt-2">
+                <button class="btn btn-info">Register <i class="fas fa-sign-in ml-1"></i></button>
+              </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-center text-md-right mt-1">
+                <p>Already have an account? <a href="#" class="blue-text"></a></p>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalLRForm" data-dismiss="modal">Login   </button>
+                <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+          <!--/.Panel 7-->
+
+          <!--Panel 8-->
+          <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body">
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-envelope prefix"></i>
+                <input type="email" id="modalRInput12" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalRInput12">Your email</label>
+              </div>
+
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalRInput13" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalRInput13">Your password</label>
+              </div>
+              <div class="md-form form-sm mb-4">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalRInput11" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalRInput11">Repeat password</label>
+              </div>
+
+             
+
+              <div class="text-center form-sm mt-2">
+                <button class="btn btn-info">Register <i class="fas fa-sign-in ml-1"></i></button>
+              </div>
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-right">
+                <p class="pt-1">Already have an account? <a href="Login" class="blue-text"></a></p>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalLRForm" data-dismiss="modal">Login   </button>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          <!--/.Panel 8-->
+        </div>
+
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: Login / Register Form-->
+
+<div class="text-center" style="display: inline;">
+  <a href="" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalRForm">Register</a>
+</div>
+<!--dropdowns-->
+<div class="dropdown" style="display: inline-block; padding: 30px">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style= "display: inline-block;" >
+    State
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+    <a class="dropdown-item" href="#">Arunachal Pradesh</a>
+    <a class="dropdown-item" href="#">Himachal Pradesh</a>
+    <a class="dropdown-item" href="#">Uttar Pradesh..</a>
+  </div>
+</div>
+<div class="dropdown" style="display: inline-block; padding: 5px">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style= "display: inline-block;" >
+    Available Dates
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">..</a>
+    <a class="dropdown-item" href="#">..</a>
+    <a class="dropdown-item" href="#">..</a>
+  </div>
+</div>
+
+  <!-- Header -->
+  
+  <!-- Page Content -->
+  <div class="container">
+
+   
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+           <img class="card-img-top" src="img\d123837152c0eb5471aba62d168075fb.jpg" alt="" style="width: 50%">
+          <div class="card-body">
+            <h4 class="card-title">Hotel Name</h4>
+            <p class="card-text">Location</p>
+            <p class="card-text">Available Dates</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Book Now!  &nbsp;@ <i class="fa fa-inr"></i> 2500/-</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+           <div class="card-body">
+             <img class="card-img-top" src="img\d123837152c0eb5471aba62d168075fb.jpg" alt="" style="width: 50%">
+            <h4 class="card-title">Hotel Name</h4>
+            <p class="card-text">Location</p>
+            <p class="card-text">Available Dates</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Book Now!  &nbsp;@ <i class="fa fa-inr"></i> 2500/-</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-5">
+        <div class="card h-100">
+           <div class="card-body">
+             <img class="card-img-top" src="img\d123837152c0eb5471aba62d168075fb.jpg" alt="" style="width: 50%">
+            <h4 class="card-title">Hotel Name</h4>
+            <p class="card-text">Location</p>
+            <p class="card-text">Available Dates</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Book Now!  &nbsp;@ <i class="fa fa-inr"></i> 2500/-</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+           <img class="card-img-top" src="img\d123837152c0eb5471aba62d168075fb.jpg" alt="" style="width: 50%">
+          <div class="card-body">
+            <h4 class="card-title">Hotel Name</h4>
+            <p class="card-text">Location</p>
+            <p class="card-text">Available Dates</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Book Now!  &nbsp;@ <i class="fa fa-inr"></i> 2500/-</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-5">
+        <div class="card h-100">
+           <img class="card-img-top" src="img\d123837152c0eb5471aba62d168075fb.jpg" alt="" style="width: 50%">
+          <div class="card-body">
+            <h4 class="card-title">Hotel Name</h4>
+            <p class="card-text">Location</p>
+            <p class="card-text">Available Dates</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Book Now!  &nbsp;@ <i class="fa fa-inr"></i> 2500/-</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-5">
+        <div class="card h-100">
+           <img class="card-img-top" src="img\d123837152c0eb5471aba62d168075fb.jpg" alt="" style="width: 50%">
+          <div class="card-body">
+            <h4 class="card-title">Hotel Name</h4>
+            <p class="card-text">Location</p>
+            <p class="card-text">Available Dates</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Book Now!  &nbsp;@ <i class="fa fa-inr"></i> 2500/-</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="img\d123837152c0eb5471aba62d168075fb.jpg" alt="" style="width: 50%">
+          <div class="card-body">
+            <h4 class="card-title">Hotel Name</h4>
+            <p class="card-text">Location</p>
+            <p class="card-text">Available Dates</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Book Now!  &nbsp;@ <i class="fa fa-inr"></i> 2500/-</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="img\d123837152c0eb5471aba62d168075fb.jpg" alt="" style="width: 50%">
+          <div class="card-body">
+            <h4 class="card-title">Hotel Name</h4>
+            <p class="card-text">Location</p>
+            <p class="card-text">Available Date</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Book Now! &nbsp;@ <i class="fa fa-inr"></i> 2500/-</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="img\d123837152c0eb5471aba62d168075fb.jpg" alt="" style="width: 50%">
+          <div class="card-body">
+            <h4 class="card-title">Hotel Name</h4>
+            <p class="card-text">Location</p>
+            <p class="card-text">Available Dates</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Book Now!  &nbsp;@ <i class="fa fa-inr"></i> 2500/-</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
